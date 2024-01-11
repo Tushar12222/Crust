@@ -1,0 +1,2 @@
+[placeholders]
+extension_name = { prompt = "Extension name", default = "Yew" }
