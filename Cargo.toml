@@ -6,7 +6,7 @@ categories = ["gui", "wasm", "web-programming"]
 description = "Makes use of the yew-wasm-pack-minimal template to generate a starter project that helps build chrome extensions with Yew."
 keywords = ["yew", "wasm", "wasm-bindgen", "web", "wasm pack", "chrome-extension-with-rust"]
 name = "{{crate_name}}"
-edition = "2023"
+edition = "2024"
 readme = "README.md"
 version = "0.1.0"
 
