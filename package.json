@@ -5,6 +5,6 @@
     "scripts": {
       "setup": "rustup target add wasm32-unknown-unknown && cargo install trunk && npm i -g tailwindcss",
       "dev": "trunk serve --open",
-      "prod": "wasm-pack build --target web"
+      "prod": "trunk build --release"
     }
 }

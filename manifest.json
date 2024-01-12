@@ -3,7 +3,7 @@
     "name": "{{extension_name}}",
     "version": "1.0",
     "action": {
-      "default_popup": "popup.html"
+      "default_popup": "index.html"
     },
     "content_security_policy": {
       "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self';"
