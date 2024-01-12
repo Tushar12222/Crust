@@ -1,28 +1,20 @@
 use yew::prelude::*;
 
-pub struct App {}
-
-pub enum Msg {}
-
-impl Component for App {
-    type Message = Msg;
-    type Properties = ();
-
-    fn create(_: Self::Properties, _: ComponentLink<Self>) -> Self {
-        App {}
-    }
-
-    fn update(&mut self, _msg: Self::Message) -> ShouldRender {
-        true
-    }
-
-    fn change(&mut self, _: Self::Properties) -> ShouldRender {
-        false
-    }
-
-    fn view(&self) -> Html {
-        html! {
-            <p>{ "Hello world!" }</p>
+#[function_component]
+pub fn App() -> Html {
+    let counter = use_state(|| 0);
+    let onclick = {
+        let counter = counter.clone();
+        move |_| {
+            let value = *counter + 1;
+            counter.set(value);
         }
+    };
+
+    html! {
+        <div>
+            <button {onclick}>{ "+1" }</button>
+            <p>{ *counter }</p>
+        </div>
     }
 }
