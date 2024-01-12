@@ -1,16 +1,13 @@
 [package]
 authors = [
-    "Tushar G Hombal" <tusharh75@gmail.com>"
-]
-credits = [
-    "Kelly Thomas Kline <kellytk@sw-e.org>",
-    "Samuel Rounce <me@samuelrounce.co.uk>",
+    "Tushar G Hombal <tusharh75@gmail.com>"
 ]
 categories = ["gui", "wasm", "web-programming"]
 description = "Makes use of the yew-wasm-pack-minimal template to generate a starter project that helps build chrome extensions with Yew."
 edition = "2024"
 keywords = ["yew", "wasm", "wasm-bindgen", "web", "wasm pack", "chrome-extension-with-rust"]
 name = "{{crate_name}}"
+edition = "2021"
 readme = "README.md"
 version = "0.1.0"
 
