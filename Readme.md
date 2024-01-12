@@ -25,7 +25,8 @@ crate-type = ["cdylib"]
 ```
 npm run dev
 ```
-10) ### To build the extension , revert change mentioned in point (8) and run command:
+10) ### If it shows an error build, then add the root directory as a exclusion in your windows defender.
+11) ### To build the extension , revert change mentioned in point (8) and run command:
 ```
 npm run prod
 ```
