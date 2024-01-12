@@ -25,7 +25,7 @@ src="init.js"
 ```
 9) ### Make sure nothing is present within the script tag once you have moved the contents to init.js.
 10) ### Remove the attribute "integrity="hash"" from the two link tags present in the head of index.html.
-11) ## Then head over to:
+11) ### Then head over to:
 ```
 chrome://extensions
 ```
