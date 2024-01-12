@@ -3,11 +3,8 @@
     "version": "0.1.0",
     "description": "",
     "scripts": {
-      "setup": "rustup target add wasm32-unknown-unknown && cargo install trunk && npm i -g tailwindcss concurrently",
-      "dev": "concurrently \"npm run dev:css\" \"npm run dev:serve\"",
-      "dev:css": "tailwindcss -c tailwind.config.js -o tailwind.css --watch",
-      "dev:serve": "trunk serve --open",
-      "prod": "npm run prod:css && wasm-pack build --target web",
-      "prod:css": "tailwindcss -c tailwind.config.js -o tailwind.css --minify"
+      "setup": "rustup target add wasm32-unknown-unknown && cargo install trunk && npm i -g tailwindcss",
+      "dev": "trunk serve --open",
+      "prod": "wasm-pack build --target web"
     }
 }

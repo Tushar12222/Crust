@@ -21,7 +21,7 @@ npm run setup
 [lib]
 crate-type = ["cdylib"]
 ```
-9) ### TO start development server, run:
+9) ### To start development server, run:
 ```
 npm run dev
 ```
