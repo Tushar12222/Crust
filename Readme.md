@@ -21,7 +21,11 @@ npm run setup
 [lib]
 crate-type = ["cdylib"]
 ```
-9) ### To build the extension , revert change mentioned in point (8) and run command:
+9) ### TO start development server, run:
+```
+npm run dev
+```
+10) ### To build the extension , revert change mentioned in point (8) and run command:
 ```
 npm run prod
 ```
