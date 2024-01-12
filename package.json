@@ -1,5 +1,5 @@
 {
-    "name": "tailwindcss-yew-template",
+    "name": "{{crate_name}}",
     "version": "0.1.0",
     "description": "",
     "scripts": {
