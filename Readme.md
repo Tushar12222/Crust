@@ -1,5 +1,7 @@
 ## To start using the starter template:
 
+:mega: ### (Only Windows) In case you get a build error, add the root folder to the exclusion list of the windows defender.
+
 1) ### Run command:
 ``` 
 cargo generate --git https://github.com/Tushar12222/Crust
@@ -10,6 +12,7 @@ cargo generate --git https://github.com/Tushar12222/Crust
 ```
 npm run dev
 ```
+
 5) ### To build the extension and test it on chrome , run command:
 ```
 npm run prod
